@@ -16,6 +16,12 @@ export const Nav = () => {
           <Link class="nav-link active" aria-current="page" to="/">Add BOOK</Link>
         </li>
         <li class="nav-item">
+          <Link class="nav-link" to="/search">SEARCH DETAILS</Link>
+        </li>
+        <li class="nav-item">
+          <Link class="nav-link" to="/delete">DELETE DETAILS</Link>
+        </li>
+        <li class="nav-item">
           <Link class="nav-link" to="/view">VIEW DETAILS</Link>
         </li>
       </ul>
